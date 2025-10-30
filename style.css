@@ -7,7 +7,7 @@ body {
 
 #game-area {
     width: 500px; /* Largura da área de jogo */
-    height: 400px; /* Altura da área de jogo */
+    height: 300px; /* Altura da área de jogo */
     border: 2px solid #333; /* Borda de 2 pixels de espessura com cor sólida */
     margin: 20px auto; /* Adiciona margem de 20px em cima/baixo da área do jogo e centralizada horizontalmente */
     position: relative; /* Permite posicionar elementos filhos de forma absoluta dentro desta área */
@@ -35,6 +35,7 @@ body {
 #start-btn:hover {
     background-color: #555; /* Cor do fundo do botão quando o mouse passa por cima */
 }
+
 
 
 
