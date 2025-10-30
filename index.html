@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerte o Alvo 🎯</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Clique no Alvo 🎯</h1> <!-- Título principal da página (o maior) -->
+
+    <div> <!-- Cria uma divisão genérica, um espaço na página para agrupar um conteúdo -->
+        Pontuação: <span id="score"> 0 </span> - Tempo: <span id="time"> 30s </span>
+        <!-- O span guarda os números que vão ser atualizados com JavaScript -->
+    </div>
+    
+    <button id="start-btn"> Iniciar - Reiniciar </button> 
+    <!-- Cria botão para começar ou reiniciar o jogo -->
+    
+    <div id="game-area"> <!-- Cria o espaço da área do jogo (quadrado que será feito no css) -->
+        <div id="target"></div> <!-- Cria espaço para o alvo (círculo que será feito no css) -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial; /* Define a fonte usada no corpo do site */
+    font-size: 18px; /* Define o tamanho da fonte usada no corpo do site */
+    text-align: center; /* Centraliza todo o texto na página */
+    background-color: #f2f2f2; /* Define a cor de fundo da página */
+}
+
+#game-area {
+    width: 500px; /* Largura da área de jogo */
+    height: 400px; /* Altura da área de jogo */
+    border: 2px solid #333; /* Borda de 2 pixels de espessura com cor sólida */
+    margin: 20px auto; /* Adiciona margem de 20px em cima/baixo da área do jogo e centralizada horizontalmente */
+    position: relative; /* Permite posicionar elementos filhos de forma absoluta dentro desta área */
+    background-color: white; /* Fundo branco dentro da área do jogo */
+}
+
+#target {
+    width: 50px; /* Largura do alvo */
+    height: 50px; /* Altura do alvo */
+    background-color: red; /* Cor do alvo em vermelho */
+    border-radius: 50%; /* Deixa o alvo com a borda arredondada */
+    position: absolute; /* Permite mover o alvo livremente dentro da área do jogo */
+    cursor: pointer; /* Mostra a mãozinha quando o jogador passa o mouse em cima */
+    display: none; /* O alvo começa invisível até o jogo iniciar */
+}
+
+#start-btn {
+    font-size: 16px; /* Tamanho da fonte do texto dentro do botão */
+    color: white; /* Cor do texto dentro do botão */
+    margin: 20px auto; /* Espaço acima do botão */
+    padding: 10px 10px; /* Espaçamento interno entre texto e botão (cima/baixo: 10px, lados: 10px) */  
+    cursor: pointer; /* Mostra a mãozinha quando passa o mouse sobre o botão */
+    background-color: #333; /*Cor de fundo do botão */
+   }
+#start-btn:hover {
+    background-color: #555; /* Cor do fundo do botão quando o mouse passa por cima */
+}
+
+
+
